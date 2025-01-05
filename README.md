@@ -1,6 +1,6 @@
 # 🌤 Weather App
 
-Welcome to the Enhanced Weather App! This application allows you to fetch and display current weather information for any city around the world using the OpenWeatherMap API.
+Welcome to the Weather App! This application allows you to fetch and display current weather information for any city around the world using the OpenWeatherMap API.
 
 ## Features
 

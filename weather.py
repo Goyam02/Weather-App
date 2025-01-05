@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timezone
 
 def fetch_weather(city):
-    api_key = "4bb45893ead1e680a86a1af6c80c52cc"  # Replace with your valid API key
+    api_key = "YOUR_API_KEY"  # Replace with your valid API key
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     parameters = {
         "q": city,

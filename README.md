@@ -20,19 +20,21 @@ These instructions will help you set up and run the Enhanced Weather App on your
 
 - Python 3.x
 - `requests` library
+-  `datetime` library
 
 ### Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Goyam02/WEATHER-APP.git
-   cd WEATHER-APP
+   git clone https://github.com/Goyam02/Weather-App.git
+   cd Weather-App
 
 2. **Install the required dependencies:**
 
     ```bash
     pip install requests
+    from datetime import datetime,timezone
 
 3. **Get your API key:**
 
@@ -47,20 +49,20 @@ These instructions will help you set up and run the Enhanced Weather App on your
 
 2. **Enter the city name when prompted:**
     ```bash
-    🌤 Welcome to the Enhanced Weather App!
+    🌤 Welcome to the Weather App!
     Enter city name: London
 
 3. **View Weather Deatils:**
     ```bash
-- 🌍 Weather Details for London, GB:
--  🌡️ Temperature: 15°C
-- 🥶 Feels Like: 13°C
-- 🌤️ Weather: Clear sky
-- 💧 Humidity: 60%
-- 🌬️ Wind Speed: 5 km/h
-- 🌀 Pressure: 1012 hPa
-- 🌅 Sunrise: 07:30:00 UTC
-- 🌇 Sunset: 16:45:00 UTC
+   - 🌍 Weather Details for London, GB:
+   -  🌡️ Temperature: 15°C
+   - 🥶 Feels Like: 13°C
+   - 🌤️ Weather: Clear sky
+   - 💧 Humidity: 60%
+   - 🌬️ Wind Speed: 5 km/h
+   - 🌀 Pressure: 1012 hPa
+   - 🌅 Sunrise: 07:30:00 UTC
+   - 🌇 Sunset: 16:45:00 UTC
 
 ## Contributing
 
